@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contenedor {
+  position: relative;
+  height: 100vh;
+}
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -3;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgb(74, 73, 71);
+}
+.video-container video {
+  position: relative;
+  opacity: 40%;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.contenido-portada {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.contenido-portada h1 {
+  color: white;
+  font-size: 150px;
+  font-family: 'Roboto Slab', serif;
+}
+.contenido-portada h4 {
+    font-family: 'Dosis', sans-serif;
+  color: rgb(213, 206, 206);
+  font-size: 50px;
+}
+.titulos-portada {
+  width: 60%;
+
+  text-align: center;
+}
+.titulos-portada hr {
+  
+  height: 3px; /* Set the hr color */
+  color: #000000; /* old IE */
+  background-color: #000000; /* Modern Browsers */
+}
+.botones-portada {
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+.botones-portada button {
+  padding: 1% 2%;
+  color: #a6e4ff;
+font-size: 150%;
+  background: none;
+  border: none;
+  transition: 0.5s;
+  border-radius: 50px 50px 50px 50px;
+}
+.botones-portada button:hover {
+  font-size: 25px;
+  padding: 5px 2%;
+  color: rgb(65, 64, 64);
+  background: white;
+  
+}

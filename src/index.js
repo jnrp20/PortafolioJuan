@@ -1,20 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+
 import reportWebVitals from './reportWebVitals';
-import Component1 from './COMPONENTS/Component1';
-import ComponentImagenes from './COMPONENTS/ComponentImagenes';
+
+
 
 // importantisimo para poder usar boostrap y no olvidar instalar en la consola con "npm install react-bootstrap bootstrap"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Inicio from './COMPONENTS/Inicio';
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <Component1/>
-    <ComponentImagenes/>
+<Inicio/>
   </React.StrictMode>
 );
 
