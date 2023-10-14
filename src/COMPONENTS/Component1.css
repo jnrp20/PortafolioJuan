@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+h1,
+h4 {
+    margin: 0;
+}
+
+.padre {
+    margin: 0px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+header {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #034A68;
+    color: white;
+    transition: 1s;
+    padding: 1% 7%;
+}
+
+header h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 50px;
+}
+
+header h4 {
+    transition: 1s;
+    font-size: 16px;
+}
+
+.logodiv{
+    display: flex;
+    width: fit-content;
+    justify-content: left;
+    align-items: center;
+}
+
+
+.btn-sesion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 22%;
+    min-width: 18%;
+}
+
+.btn-registrarse {
+    background-color: chocolate;
+    padding: 5%;
+    border-radius: 13px 13px 13px 13px;
+    /* la transition es para cuando activen el bombillo se vea suave la animación */
+        transition: 1s;
+}
+
+.btn-registrarse:hover {
+   
+    cursor: pointer;
+
+    animation-name: animarboton;
+    animation-duration: 1s; 
+    transition: 1s;
+}
+
+.btn-opciones{
+    display: none;
+}
+
+
+
+header h4:hover, header img:hover {
+    cursor: pointer;
+    animation-name: animarletras;
+    animation-duration: 1s;
+    transition: 1s;
+}
+
+
+
+.sub-header{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height:auto;
+    
+    
+    background-color: rgb(216, 217, 217);
+    
+}
+
+.tags a{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+.tags{
+    width: auto;
+    height:auto;
+    padding: 1% 5%;
+    width: auto;
+    height:auto;
+    padding: 1% 5%;
+    transition: 1s;
+}
+.tags:hover{
+    background-color:rgb(45, 153, 186);
+    
+}
+ 
+
+
+
+@keyframes animarboton {
+    0% {
+        transform: translate(0, 3px);
+       
+    }
+
+    50% {
+        transform: translate(0, -3px);
+        background-color: rgb(165, 34, 71);
+    }
+}
+
+@keyframes animarletras {
+    0% {
+        transform: translate(0, 3px);
+       
+    }
+
+    50% {
+        transform: translate(0, -3px);
+        
+    }
+}
+@media (max-width: 850px) {
+    .padre {
+        margin: 0px;
+      
+    }
+
+   
+    header {
+        display: block;
+        margin: 0px;
+        padding: 0;
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+    .logodiv{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header h1 {
+        font-family: "Dancing Script", cursive;
+        font-size: 30px;
+       
+        padding: 3% 0%;
+    }
+
+    
+
+    
+
+    .btn-sesion {
+        display: flex;
+       
+        width: auto;
+        height: 50px;
+      
+        justify-content: space-around;
+        background-color: rgb(16, 109, 163);
+    }
+    .img-bombillo{
+       
+        width: 40px;
+        height: 40px;
+    }
+
+    .btn-registrarse {
+        display: flex;
+        align-items: center;
+        background-color: chocolate;
+        padding: 1% 3%;
+        
+        border-radius: 13px 13px 13px 13px;
+/* la transition es para cuando activen el bombillo se vea suave la animación */
+        transition: 1s;
+    }
+
+    .btn-registrarse,
+    h4,
+    img {
+        cursor: pointer;
+    }
+   
+    .sub-header{
+        display: flex;
+        justify-content: space-around;
+        width: auto;
+        height:auto;
+        
+        
+        background-color: rgb(216, 217, 217);
+        
+    }
+    
+    .tags a{
+        text-align: center;
+        font-size: 15px;
+        text-decoration: none;
+        color: black;
+        
+    }
+    
+    
+    .tags{
+        display: flex;
+       
+        width: auto;
+       
+      padding: 1% 1%;
+        
+        
+        transition: 1s;
+    }
+
+
+
+    @media (max-width: 556px) {
+
+        .sub-header{
+
+            display: none;
+            
+            width: auto;
+            height:auto;
+            
+            
+            background-color: rgb(216, 217, 217);
+            /* animation-name: animarOpciones;
+            animation-duration: 1s; */
+            transition: 1s;
+            
+        }
+        .btn-opciones{
+            display: flex;
+            width: auto;
+            height: 40px;
+        }
+        .tagsbtn{
+            padding: 3% 0;
+            
+           
+            
+        }
+       
+        .tagsbtn a {
+            color: white;
+            display: flex;
+            justify-content: center;
+            text-decoration: none;
+            margin: 2px 0;
+           
+            
+        }
+
+        
+        
+    }
+@keyframes animarOpciones {
+  0%{
+    background-color: aqua;
+  }
+}
+
+}
+
