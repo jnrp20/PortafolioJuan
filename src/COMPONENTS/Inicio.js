@@ -12,7 +12,7 @@ const Inicio = () => {
               <div className="contenido-portada">
                 <div className="titulos-portada">
                     <h4>Front-end Developer</h4>
-                     <h1>PORTAFOLIO</h1>
+                     <h1>PORTFOLIO</h1>
                      <h4>By Nicolas Romero</h4>
                    
                      <hr />
