@@ -43,7 +43,7 @@
   background-color: rgb(97, 97, 97);
 }
 .foto img{
-  width: 50%;
+  width: 70%;
   margin: 10% 0;
   
 }
@@ -66,4 +66,11 @@
   margin-bottom: 6%;
   font-family: 'Roboto Slab', serif;
   text-align: center;
+}
+.texto p{
+  font-family: 'Cutive Mono', monospace;
+ font-size: 22px;
+ font-weight: 550;
+
+ 
 }

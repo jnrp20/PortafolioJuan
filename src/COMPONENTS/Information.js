@@ -32,10 +32,15 @@ const Information = () => {
                     </div>
                     <div className="texto">
                         <h1>NICOLAS ROMERO</h1>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni asperiores laudantium dicta nobis sapiente optio impedit, sint est quod provident officia vero excepturi veniam voluptas laborum perferendis dignissimos neque cupiditate. Asperiores impedit ducimus ipsum eius dicta hic nemo quas ullam provident quis dolorem nihil, voluptates autem laudantium animi expedita qui?
-<br />
-<br />
-Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae iusto porro beatae blanditiis reiciendis sit laudantium, assumenda tenetur quia delectus ut, reprehenderit pariatur, commodi vel adipisci dicta voluptatum! Velit, quia qui. Inventore, aliquam dolor mollitia possimus dolorem voluptate perferendis debitis culpa omnis ducimus reprehenderit. Fugit esse sapiente dolore modi ratione!                       
+                        <p>Systems engineer, studying specialization in business Management of
+                            Information systems. With subjects dedicated to management in
+                            decision making, adapting them to the strategy of
+                            the organization. </p>
+                        <p>Knowledge of different programming languages ​​such as
+                            Java, JavaScript, C++, C#, HTML, CSS, TypeScript, JXS, Bootstrap, Angular and React frameworks. Values ​​based on
+                            commitment, order, efficiency and with great strength in teamwork,
+                            problem solving thus achieving results
+                            expected business outcomes.</p>
                     </div>
                  </div>
 
