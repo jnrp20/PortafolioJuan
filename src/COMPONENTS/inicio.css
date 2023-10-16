@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto+Slab&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -43,36 +42,120 @@
     font-family: 'Dosis', sans-serif;
   color: rgb(213, 206, 206);
   font-size: 50px;
+  font-weight: 900;
 }
 .titulos-portada {
   width: 60%;
-
+margin-bottom: 2%;
   text-align: center;
 }
-.titulos-portada hr {
-  
-  height: 3px; /* Set the hr color */
-  color: #000000; /* old IE */
-  background-color: #000000; /* Modern Browsers */
-}
+
 .botones-portada {
   text-align: center;
   width: 100%;
   height: auto;
 }
-.botones-portada button {
+.botones-portada a {
+  text-decoration: none;
+  cursor: pointer;
   padding: 1% 2%;
-  color: #a6e4ff;
+  color: #cccdd4;
 font-size: 150%;
+font-weight: 600;
   background: none;
   border: none;
   transition: 0.5s;
   border-radius: 50px 50px 50px 50px;
 }
-.botones-portada button:hover {
+.botones-portada a:hover {
   font-size: 25px;
+  font-weight: 300;
   padding: 5px 2%;
   color: rgb(65, 64, 64);
   background: white;
   
+}
+.btn-responsive{
+  display: none;
+}
+@media (max-width: 850px) {
+  .contenido-portada {
+    padding-top: 30%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+  .contenido-portada h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Roboto Slab', serif;
+  }
+  .contenido-portada h4 {
+      font-family: 'Dosis', sans-serif;
+    color: rgb(213, 206, 206);
+    font-size: 30px;
+  }
+  .titulos-portada {
+  width: 90%;
+
+  text-align: center;
+}
+
+.botones-portada {
+  display: none;
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+.btn-responsive{
+  
+ 
+  display: flex;
+  width: 20%;
+  height: 10%;
+  animation-duration: 0.8s;
+ animation-iteration-count: infinite;
+  animation-name: animarBtnResponsive;
+  animation-direction: alternate;
+  
+}
+
+
+.btn-responsive img{
+  object-fit: cover;
+  width:80%;
+  
+}
+
+@keyframes animarBtnResponsive {
+  100%{
+    transform: translateY(-30px);
+  }
+  
+  
+}
+
+}
+@media (max-width: 1236px){
+
+  .contenido-portada h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Roboto Slab', serif;
+  }
+  .contenido-portada h4 {
+      font-family: 'Dosis', sans-serif;
+    color: rgb(213, 206, 206);
+    font-size: 30px;
+  }
+  .titulos-portada {
+  width: 90%;
+
+  text-align: center;
+}
 }

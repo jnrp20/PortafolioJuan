@@ -11,17 +11,51 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Inicio from './COMPONENTS/Inicio';
 import Information from './COMPONENTS/Information';
 import Skillset from './COMPONENTS/Skillset';
+import Projects from './COMPONENTS/Projects';
+import Experience from './COMPONENTS/Experience';
+import Contact from './COMPONENTS/Contact';
 
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
     {/* <App /> */}
+
+
+
 <Inicio/>
+
+
+{/* se tuvo que crear este div despues del componente inicio para que el navbar pueda recorrer todos los componentes de forma fija sin desaparecer, ya que se usa la propiedad sticky y eso hace que deje de ser fijo cuando se acaba su div padre */}
+<div className='fondo'>
+
+<div 
+                className="nav-bar"
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1000"
+            >
+                <div className="botones-nav-bar">
+                    <a href="#seccionInicio">MAIN</a>
+                    <a href="#seccionInfo">INFORMATION</a>
+                    <a href="#seccionSkill">SKILLSET</a>
+                    <a href="#seccionProjects">PROJECTS</a>
+                    <a href="#seccionExperience">EXPERIENCE</a>
+                    <a href="#seccionContact">CONTACT ME</a>
+                    <hr />
+                </div>
+            </div>
 <Information/>
-{/* <Skillset/> */}
+<Skillset/>
+<Projects/>
+<Experience/>
+<Contact/>
+
+</div>
+
   </React.StrictMode>
 );
 

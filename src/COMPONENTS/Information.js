@@ -11,23 +11,9 @@ const Information = () => {
     }, []);
 
     return (
-        <div className="padre-info">
+        <div className="padre-info"  id="seccionInfo">
             {/* este data-aos es para las animaciones de la libreria AOS */}
-            <div
-                className="nav-bar"
-                data-aos="fade-down"
-                data-aos-easing="linear"
-                data-aos-duration="1000"
-            >
-                <div className="botones-nav-bar">
-                    <button>INFORMATION</button>
-                    <button>SKILLSET</button>
-                    <button>PROJECTS</button>
-                    <button>EXPERIENCE</button>
-                    <button>CONTACT ME</button>
-                    <hr />
-                </div>
-            </div>
+            
             <div className="cont-info">
 
                  <div data-aos="fade-left"
