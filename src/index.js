@@ -34,9 +34,8 @@ root.render(
 
 <div 
                 className="nav-bar"
-                data-aos="fade-down"
-                data-aos-easing="linear"
-                data-aos-duration="1000"
+                data-aos="fade-up"
+               
             >
                 <div className="botones-nav-bar">
                     <a href="#seccionInicio">MAIN</a>
