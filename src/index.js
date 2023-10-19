@@ -48,10 +48,10 @@ root.render(
                 </div>
             </div>
 <Information/>
-<Skillset/>
-<Projects/>
+{/* <Skillset/> */}
+{/* <Projects/>
 <Experience/>
-<Contact/>
+<Contact/> */}
 
 </div>
 
