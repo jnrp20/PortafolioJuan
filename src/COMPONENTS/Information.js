@@ -64,9 +64,7 @@ const Information = () => {
 
       <div className="cont-info">
         <div
-          data-aos="fade-left"
-          data-aos-easing="linear"
-          data-aos-duration="1500"
+          
         >
           <h1>INFORMATION</h1>
         </div>
