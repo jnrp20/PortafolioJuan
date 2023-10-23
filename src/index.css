@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto+Slab&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
 body {
+  background-color: DFDFDF;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -35,6 +36,7 @@ p{
 .fondo{
   width: 100%;
   height: auto;
+  background-color: #DFDFDF;
 }
 
 
@@ -52,7 +54,7 @@ background-color: white;
   font-family: "Roboto Slab", serif;
  
   width: 100%;
- background-color: #dfdfdf;
+ 
   color: rgb(34, 34, 34);
   padding: 0% 2%;
 }
