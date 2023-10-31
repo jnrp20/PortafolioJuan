@@ -66,6 +66,7 @@ background-color: white;
   
   
 }
+
 .botones-nav-bar a{
   color: #555454;
   cursor: pointer;
@@ -74,16 +75,42 @@ background-color: white;
   font-size: 150%;
   background: none;
   border: none;
-  transition: 0.5s;
-  border-radius: 50px 50px 50px 50px;
+ 
+ 
+}
+.btn-linea {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+.btn-linea:before {
+
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 51%;
+  right: 51%;
+  bottom: 0;
+  background: rgb(137, 137, 137);
+  height: 4px;
+  /* de aqui pa abajo se uso la libreria https://ianlunn.github.io/Hover/ */
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.btn-linea:hover:before, .btn-linea:focus:before, .btn-linea:active:before {
+  left: 0;
+  right: 0;
 }
 
-.botones-nav-bar a:hover {
-  font-size: 25px;
-  padding: 0 2%;
-  color: rgb(255, 255, 255);
-  background: rgb(137, 137, 137);
-}
+
 @media (max-width: 850px) {
  .nav-bar{
   display: none;

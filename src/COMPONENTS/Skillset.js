@@ -31,7 +31,7 @@ const Skillset = () => {
       <div className="cont-skill">
         
           <h1 >SKILLSET</h1>
-          <div className="skill-logos" data-aos="zoom-out-down" data-aos-duration="1000">
+          <div className="skill-logos" data-aos="fade-right" data-aos-duration="1200">
             <div className="card-logo">
                 <img src={LogoAngular} alt="" />
                  <h4>ANGULAR</h4>
@@ -56,7 +56,7 @@ const Skillset = () => {
             </div>
             
           </div>
-          <div className="skill-logos" data-aos="zoom-out-up" data-aos-duration="1000">
+          <div className="skill-logos" data-aos="fade-left" data-aos-duration="1200" >
             <div className="card-logo">
                 <img src={LogoBootstrap} alt="" />
                  <h4>BOOTSTRAP</h4>
