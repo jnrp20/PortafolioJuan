@@ -41,6 +41,7 @@ const Skillset = () => {
             </div>
             <div className="back">
               <h1>ANGULAR</h1>
+              <h2>Mid-Level</h2>
             </div>
           </div>
           <div className="card">
@@ -48,7 +49,8 @@ const Skillset = () => {
               <img src={LogoHtml} alt="" />
             </div>
             <div className="back">
-              <h1>B</h1>
+            <h1>HTML</h1>
+              <h2>Mid-Level</h2>
             </div>
           </div>
           <div className="card">
@@ -56,7 +58,8 @@ const Skillset = () => {
               <img src={LogoCss} alt="" />
             </div>
             <div className="back">
-              <h1>B</h1>
+            <h1>CSS</h1>
+              <h2>Mid-Level</h2>
             </div>
           </div>
           <div className="card">
@@ -64,7 +67,8 @@ const Skillset = () => {
               <img src={LogoJavaScript} alt="" />
             </div>
             <div className="back">
-              <h1>B</h1>
+            <h1>JAVASCRIPT</h1>
+              <h2>Mid-Level</h2>
             </div>
           </div>
           <div className="card">
@@ -72,7 +76,8 @@ const Skillset = () => {
               <img src={LogoReact} alt="" />
             </div>
             <div className="back">
-              <h1>B</h1>
+              <h1>REACT</h1>
+              <h2>Mid-Level</h2>
             </div>
           </div>
         </div>
@@ -87,7 +92,8 @@ const Skillset = () => {
               <img src={LogoBootstrap} alt="" />
             </div>
             <div className="back">
-              <h1>B</h1>
+            <h1>BOOTSTRAP</h1>
+              <h3>Junior-Level</h3>
             </div>
           </div>
           <div className="card">
@@ -95,7 +101,8 @@ const Skillset = () => {
               <img src={LogoTypeScript} alt="" />
             </div>
             <div className="back">
-              <h1>B</h1>
+            <h1>TYPESCRIPT</h1>
+              <h2>Mid-Level</h2>
             </div>
           </div>
           <div className="card">
@@ -103,7 +110,8 @@ const Skillset = () => {
               <img src={LogoGit} alt="" />
             </div>
             <div className="back">
-              <h1>B</h1>
+            <h1>GIT</h1>
+              <h2>Mid-Level</h2>
             </div>
           </div>
           <div className="card">
@@ -111,7 +119,8 @@ const Skillset = () => {
               <img src={LogoRD} alt="" />
             </div>
             <div className="back">
-              <h1>B</h1>
+            <h1>RESPONSIVE DESING</h1>
+              <h3>Junior-Level</h3>
             </div>
           </div>
           <div className="card">
@@ -119,10 +128,15 @@ const Skillset = () => {
               <img src={LogoTailwind} alt="" />
             </div>
             <div className="back">
-              <h1>B</h1>
+            <h1>TAILWIND</h1>
+              <h3>Junior-Level</h3>
             </div>
           </div>
         </div>
+
+      {/* --------------------OTHER SKILLSETS-------------------- */}
+
+
       </div>
     </div>
   );

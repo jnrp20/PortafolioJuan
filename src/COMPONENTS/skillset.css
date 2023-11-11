@@ -59,10 +59,25 @@
  }
  .card .back{
   
-  background-color: chocolate;
+  background-color: rgb(255, 255, 255);
   transform: perspective(500px) rotateY(180deg);
+  border-radius: 33px 33px 33px 33px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   
   
+ }
+
+ .back h1{
+  font-size: 25px;
+ }
+ .back h2{
+  color:  #f89518 ;
+ }
+ .back h3{
+  color:  #45dc4c ;
  }
 
  .card:hover .front{
