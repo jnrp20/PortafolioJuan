@@ -43,16 +43,16 @@ root.render(
                     <a className='btn-linea' href="#seccionInfo">INFORMATION</a>
                     <a className='btn-linea' href="#seccionSkill">SKILLSET</a>
                     <a className='btn-linea' href="#seccionProjects">PROJECTS</a>
-                    <a className='btn-linea' href="#seccionExperience">EXPERIENCE</a>
+                    {/* <a className='btn-linea' href="#seccionExperience">EXPERIENCE</a> */}
                     <a className='btn-linea' href="#seccionContact">CONTACT ME</a>
                     <hr />
                 </div>
             </div>
 <Information/>
 <Skillset/>
-{/* <Projects/>
-<Experience/>
-<Contact/> */}
+{/* <Experience/> */}
+ <Projects/>
+{/*<Contact/> */}
 
 </div>
 

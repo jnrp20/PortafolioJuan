@@ -9,7 +9,7 @@ import LogoReact from "../image/React.png";
 import LogoBootstrap from "../image/Bootstrap.png";
 import LogoGit from "../image/Git.png";
 import LogoRD from "../image/responsive.png";
-import Tailwind from "../image/tailwind.png";
+import LogoTailwind from "../image/tailwind.png";
 
 import LogoPhotoshop from "../image/photoshop.png";
 import LogoPremiere from "../image/Premiere.png";
@@ -29,59 +29,100 @@ const Skillset = () => {
       {/* este data-aos es para las animaciones de la libreria AOS */}
 
       <div className="cont-skill">
-        
-          <h1 >SKILLSET</h1>
-          <div className="skill-logos" data-aos="fade-right" data-aos-duration="1200">
-            <div className="card-logo">
-                <img src={LogoAngular} alt="" />
-                 <h4>ANGULAR</h4>
-                
+        <h1>SKILLSET</h1>
+        <div
+          className="skill-logos"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+        >
+          <div className="card">
+            <div className="front">
+              <img src={LogoAngular} alt="" />
             </div>
-            <div className="card-logo">
-                <img src={LogoCss} alt="" />
-                <h4>CSS</h4>
+            <div className="back">
+              <h1>ANGULAR</h1>
             </div>
-            <div className="card-logo">
-                <img src={LogoHtml} alt="" /> 
-                <h4>HTML</h4>
-            </div>
-            <div className="card-logo">
-                <img src={LogoJavaScript} alt="" />
-                <h4>JAVASCRIPT</h4>
-            </div>
-
-            <div className="card-logo">
-                <img src={LogoReact} alt="" /> 
-                <h4>REACT</h4>
-            </div>
-            
           </div>
-          <div className="skill-logos" data-aos="fade-left" data-aos-duration="1200" >
-            <div className="card-logo">
-                <img src={LogoBootstrap} alt="" />
-                 <h4>BOOTSTRAP</h4>
+          <div className="card">
+            <div className="front">
+              <img src={LogoHtml} alt="" />
             </div>
-            <div className="card-logo">
-                <img src={LogoTypeScript} alt="" />
-                <h4>TYPESCRIPT</h4>
+            <div className="back">
+              <h1>B</h1>
             </div>
-            <div className="card-logo">
-                <img src={LogoGit} alt="" /> 
-                <h4>GIT</h4>
-            </div>
-            <div className="card-logo">
-                <img src={LogoRD} alt="" />
-                <h4>RESPONSIVE</h4>
-                <h5>DESING</h5>
-            </div>
-
-            <div className="card-logo">
-                <img src={Tailwind} alt="" /> 
-                <h4>TAILWIND</h4>
-            </div>
-            
           </div>
-       
+          <div className="card">
+            <div className="front">
+              <img src={LogoCss} alt="" />
+            </div>
+            <div className="back">
+              <h1>B</h1>
+            </div>
+          </div>
+          <div className="card">
+            <div className="front">
+              <img src={LogoJavaScript} alt="" />
+            </div>
+            <div className="back">
+              <h1>B</h1>
+            </div>
+          </div>
+          <div className="card">
+            <div className="front">
+              <img src={LogoReact} alt="" />
+            </div>
+            <div className="back">
+              <h1>B</h1>
+            </div>
+          </div>
+        </div>
+        {/* ---------------------aqui inicia el skill de abajo------------------- */}
+        <div
+          className="skill-logos"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+        >
+          <div className="card">
+            <div className="front">
+              <img src={LogoBootstrap} alt="" />
+            </div>
+            <div className="back">
+              <h1>B</h1>
+            </div>
+          </div>
+          <div className="card">
+            <div className="front">
+              <img src={LogoTypeScript} alt="" />
+            </div>
+            <div className="back">
+              <h1>B</h1>
+            </div>
+          </div>
+          <div className="card">
+            <div className="front">
+              <img src={LogoGit} alt="" />
+            </div>
+            <div className="back">
+              <h1>B</h1>
+            </div>
+          </div>
+          <div className="card">
+            <div className="front">
+              <img src={LogoRD} alt="" />
+            </div>
+            <div className="back">
+              <h1>B</h1>
+            </div>
+          </div>
+          <div className="card">
+            <div className="front">
+              <img src={LogoTailwind} alt="" />
+            </div>
+            <div className="back">
+              <h1>B</h1>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -26,7 +26,7 @@ const Inicio = (props) => {
                     <a href="#seccionInfo">INFORMATION</a>
                     <a href="#seccionSkill">SKILLSET</a>
                     <a href="#seccionProjects">PROJECTS</a>
-                    <a href="#seccionExperience">EXPERIENCE</a>
+                    {/* <a href="#seccionExperience">EXPERIENCE</a> */}
                     <a href="#seccionContact">CONTACT ME</a>
                     </div>
 
