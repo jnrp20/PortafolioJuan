@@ -14,6 +14,11 @@
     width: 80vw; height: 70vh;
    
   }
+  .cont-skill2{
+    text-align: center;
+    width: 70vw; height: 50vh;
+   
+  }
   .skill-logos{
    
     display: flex;
@@ -78,6 +83,10 @@
  }
  .back h3{
   color:  #45dc4c ;
+ }
+ .back h4{
+  color:  #dc5245 ;
+  font-size: 30px;
  }
 
  .card:hover .front{

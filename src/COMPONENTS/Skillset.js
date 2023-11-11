@@ -29,12 +29,12 @@ const Skillset = () => {
       {/* este data-aos es para las animaciones de la libreria AOS */}
 
       <div className="cont-skill">
-        <h1>SKILLSET</h1>
-        <div
+        <h1>MAIN SKILLSET</h1>
+          <div
           className="skill-logos"
           data-aos="fade-right"
           data-aos-duration="1500"
-        >
+         >
           <div className="card">
             <div className="front">
               <img src={LogoAngular} alt="" />
@@ -49,7 +49,7 @@ const Skillset = () => {
               <img src={LogoHtml} alt="" />
             </div>
             <div className="back">
-            <h1>HTML</h1>
+              <h1>HTML</h1>
               <h2>Mid-Level</h2>
             </div>
           </div>
@@ -58,7 +58,7 @@ const Skillset = () => {
               <img src={LogoCss} alt="" />
             </div>
             <div className="back">
-            <h1>CSS</h1>
+              <h1>CSS</h1>
               <h2>Mid-Level</h2>
             </div>
           </div>
@@ -67,7 +67,7 @@ const Skillset = () => {
               <img src={LogoJavaScript} alt="" />
             </div>
             <div className="back">
-            <h1>JAVASCRIPT</h1>
+              <h1>JAVASCRIPT</h1>
               <h2>Mid-Level</h2>
             </div>
           </div>
@@ -92,7 +92,7 @@ const Skillset = () => {
               <img src={LogoBootstrap} alt="" />
             </div>
             <div className="back">
-            <h1>BOOTSTRAP</h1>
+              <h1>BOOTSTRAP</h1>
               <h3>Junior-Level</h3>
             </div>
           </div>
@@ -101,7 +101,7 @@ const Skillset = () => {
               <img src={LogoTypeScript} alt="" />
             </div>
             <div className="back">
-            <h1>TYPESCRIPT</h1>
+              <h1>TYPESCRIPT</h1>
               <h2>Mid-Level</h2>
             </div>
           </div>
@@ -110,7 +110,7 @@ const Skillset = () => {
               <img src={LogoGit} alt="" />
             </div>
             <div className="back">
-            <h1>GIT</h1>
+              <h1>GIT</h1>
               <h2>Mid-Level</h2>
             </div>
           </div>
@@ -119,7 +119,7 @@ const Skillset = () => {
               <img src={LogoRD} alt="" />
             </div>
             <div className="back">
-            <h1>RESPONSIVE DESING</h1>
+              <h1>RESPONSIVE DESING</h1>
               <h3>Junior-Level</h3>
             </div>
           </div>
@@ -128,15 +128,52 @@ const Skillset = () => {
               <img src={LogoTailwind} alt="" />
             </div>
             <div className="back">
-            <h1>TAILWIND</h1>
+              <h1>TAILWIND</h1>
               <h3>Junior-Level</h3>
             </div>
           </div>
         </div>
 
-      {/* --------------------OTHER SKILLSETS-------------------- */}
-
-
+      </div>
+        {/* --------------------OTHER SKILLSETS-------------------- */}
+        <div className="cont-skill2">
+        <h1>OTHER SKILLSET</h1>
+          <div
+          className="skill-logos"
+          
+         >
+          <div className="card" data-aos="zoom-in" data-aos-duration="1000">
+            <div className="front">
+              <img src={LogoPhotoshop} alt="" />
+            </div>
+            <div className="back">
+              <h1>ADOBE PHOTOSHOP</h1>
+              <h2>Mid-Level</h2>
+            </div>
+          </div>
+          <div className="card" data-aos="zoom-in" data-aos-duration="2000">
+            <div className="front">
+              <img src={LogoPremiere} alt="" />
+            </div>
+            <div className="back">
+              <h1>ADOBE PREMIERE</h1>
+              <h4>Senior-Level</h4>
+            </div>
+          </div>
+          <div className="card" data-aos="zoom-in" data-aos-duration="3000">
+            <div className="front">
+              <img src={LogoLightRoom} alt="" />
+            </div>
+            <div className="back">
+              <h1>ADOBE LIGHTROOM</h1>
+              <h4>Senior-Level</h4>
+            </div>
+          </div>
+          
+          
+        </div>
+       
+        
       </div>
     </div>
   );
