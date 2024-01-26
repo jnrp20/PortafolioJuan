@@ -52,7 +52,7 @@ root.render(
 <Skillset/>
 {/* <Experience/> */}
  <Projects/>
-{/*<Contact/> */}
+<Contact/> 
 
 </div>
 
