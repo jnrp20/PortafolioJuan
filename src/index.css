@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto+Slab&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 body {
   background-color: DFDFDF;
   margin: 0;
@@ -31,7 +32,7 @@ h5{
   font-family: 'Roboto Slab', serif;
 }
 p{
-  font-family: 'Cutive Mono', monospace;
+  font-family: 'Open Sans', sans-serif;
 }
 .fondo{
   width: 100%;

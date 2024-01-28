@@ -1,6 +1,6 @@
 .padre-skill {
     width: 100%;
-    height: min-content;
+    
     position: relative;
    display: flex;
    flex-direction: column;
@@ -15,7 +15,11 @@
    
   }
   .cont-skill2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+    justify-content: center;
     width: 70vw; height: 50vh;
    
   }
