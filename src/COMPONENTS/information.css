@@ -3,6 +3,7 @@
   height: 100vh;
   position: relative;
   background-color: #dfdfdf;
+  scroll-margin-top: 8ex;
 }
 
 .cont-info {
