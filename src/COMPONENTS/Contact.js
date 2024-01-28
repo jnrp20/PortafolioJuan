@@ -9,6 +9,8 @@ const Contact = () => {
     useEffect(() => {
         Aos.init();
     }, []);
+
+    
   return (
     <div className="padre-contact"  id="seccionContact">
         {/* este data-aos es para las animaciones de la libreria AOS */}
@@ -20,6 +22,8 @@ const Contact = () => {
             data-aos-duration="1500">
                 <h1 >CONTACT ME</h1> 
              </div>
+
+             
         </div>
       
     </div>
