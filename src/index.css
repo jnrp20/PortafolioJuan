@@ -2,37 +2,51 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto+Slab&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 body {
-  background-color: DFDFDF;
+
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 
 html{
   scroll-behavior: smooth;
 
 }
 h1{
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  
 }
 
 h4{
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Poppins', sans-serif;
 }
 h5{
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Poppins', sans-serif;
+}
+h6{
+  font-family: 'Poppins', sans-serif;
 }
 p{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+ 
+ 
+}
+
+a{
+  font-family: 'Poppins', sans-serif;
+}
+
+li{
+  font-family: 'Poppins', sans-serif;
+}
+
+input::placeholder{
+  font-family: 'Poppins', sans-serif;
 }
 .fondo{
   width: 100%;
@@ -52,7 +66,7 @@ background-color: white;
  /* este z-index sirve para que el nav bar esté encima de todos los elementos osea sea la capa de arriba */
  z-index: 1;
 
-  font-family: "Roboto Slab", serif;
+ 
  
   width: 100%;
  

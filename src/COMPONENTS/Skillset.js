@@ -30,11 +30,11 @@ const Skillset = () => {
 
       <div className="cont-skill">
         <h1>MAIN SKILLSET</h1>
-          <div
+        <div
           className="skill-logos"
           data-aos="fade-right"
           data-aos-duration="1500"
-         >
+        >
           <div className="card">
             <div className="front">
               <img src={LogoAngular} alt="" />
@@ -133,15 +133,11 @@ const Skillset = () => {
             </div>
           </div>
         </div>
-
       </div>
-        {/* --------------------OTHER SKILLSETS-------------------- */}
-        <div className="cont-skill2">
+      {/* --------------------OTHER SKILLSETS-------------------- */}
+      <div className="cont-skill2">
         <h1>OTHER SKILLSET</h1>
-          <div
-          className="skill-logos"
-          
-         >
+        <div className="skill-logos">
           <div className="card" data-aos="zoom-in" data-aos-duration="1000">
             <div className="front">
               <img src={LogoPhotoshop} alt="" />
@@ -169,11 +165,13 @@ const Skillset = () => {
               <h4>Senior-Level</h4>
             </div>
           </div>
-          
-          
         </div>
-       
-        
+      </div>
+
+      {/* ---------------------------------------------aqi empieza el responsive------------------------------ */}
+
+      <div className="contSkillres" id="seccionSkillRes">
+<h4>My SkillSets</h4>
       </div>
     </div>
   );
