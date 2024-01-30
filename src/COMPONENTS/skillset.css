@@ -103,9 +103,21 @@
   transform: perspective(500px) rotateY(360deg);
   
  }
+ .contSkillres{
+  display: none;
+ }
 
- @media (max-width: 850px){
-  .padre-skill{
+ @media (max-width: 1000px){
+  .cont-skill,.cont-skill2{
     display: none;
+  }
+  .contSkillres{
+    padding-top: 5%;
+    display: flex; flex-direction: column;
+    align-items: center;
+    
+    width: 100vw;
+    height: 100vh;
+    
   }
  }

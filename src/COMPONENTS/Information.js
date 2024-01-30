@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-
-import Button from "react-bootstrap/Button";
-import Modal from "react-bootstrap/Modal";
+import btnDown from "../image/down.png";
 import "../COMPONENTS/information.css";
 import fotoPerfil from "../image/profie.png";
 import btnSig from "../image/btnSig.png";
 import btnAnt from "../image/btnAnt.png";
+import bitmoji from "../image/bitmoji.png";
+import slide from "../image/slide.png";
 // aos es para animar mientras scrolleo
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -73,7 +73,7 @@ const Information = () => {
             <h4>DEVELOPER</h4>
             <img src={fotoPerfil} />
             <h4 id="age">Country: Colombia 🇨🇴</h4>
-            <h4 id="age">Age: 22 years</h4>
+            <h4 id="age">Age: 22 </h4>
           </div>
           <div className="cont-texto">
             <div className="texto" id="texto1">
@@ -139,6 +139,50 @@ const Information = () => {
               <img src={btnSig} alt="" onClick={sig} />
             </div>
           </div>
+        </div>
+      </div>
+
+      {/* --------------------------------aqui empieza el responsive----------------------------------- */}
+
+      <div className="contInfoRes" id="secciónInfoRes">
+        <h4>A little bit about me</h4>
+
+        <div className="contInfoScroll">
+          <div className="infoTextoRes" data-aos="zoom-in" data-aos-duration="1000">
+            <h4 id="age">Country: Colombia 🇨🇴</h4>
+            <h4 id="age">Age: 22 </h4>
+          </div>
+          <div className="infoTextoRes" id="txt2" data-aos="zoom-in" data-aos-duration="1000">
+            <p>
+              System Engineer, currently pursuing a specialization in Management
+              of Managerial Information Systems. The program includes subjects
+              dedicated to management in the context of decision-making with
+              information systems, adapting them to the organization's strategy,
+              and responding in real-time to changes that may arise within it.
+              In addition
+            </p>
+          </div>
+          <div className="infoTextoRes" data-aos="zoom-in" data-aos-duration="1000">
+            <p>
+              I have experience as a software developer in multiple programming
+              languages such as Java, JavaScript, C++, Python, SQL, PHP, and
+              HTML, as well as in the use of frameworks like Angular, React,
+              Spring Boot, among others.
+            </p>
+          </div>
+        </div>
+
+        <img src={slide} alt="" id="slideImg" />
+
+        <div className="btnDownload">
+          <a href="https://mailunicundiedu-my.sharepoint.com/:f:/g/personal/jnicolasromero_ucundinamarca_edu_co/Em6J9nF3CpdGnqXVjSQKH2kBY9Xv5jvJW4OCtrLoPcc8EA?e=Du1lYp">
+            <button>View CV</button>
+          </a>
+        </div>
+        <div className="infiBtnPagSig">
+          <a href="#seccionSkillRes">
+            <img src={btnDown} alt="" />
+          </a>
         </div>
       </div>
     </div>

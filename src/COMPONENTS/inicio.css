@@ -108,6 +108,7 @@
   }
 
   .container-foto-res img {
+    z-index: 1;
     position: relative;
     top: 25%;
     left: 20%;
@@ -130,6 +131,21 @@
    animation-iteration-count: infinite;
    animation-timing-function: linear;
   }
+  .container-foto-res::after{
+    content: "";
+        position: absolute;
+        top: 15.3%;
+        left: 20%;
+        width: 60%;
+        height: 30%;
+        background-color: #e531eb6c;
+        border-radius: 50%;
+      
+     animation-name: girar2;
+     animation-duration: 6s;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+    }
 
   @keyframes girar {
 
@@ -137,6 +153,15 @@
       transform: rotate(0deg);
     }to{
       transform: rotate(-360deg);
+    }
+    
+  }
+  @keyframes girar2 {
+
+    from{
+      transform: rotate(0deg);
+    }to{
+      transform: rotate(360deg);
     }
     
   }
@@ -171,9 +196,40 @@
     margin: 2% 0;
     background: none;
     border-radius: 42px 42px 42px 42px;
+    
+    
+  }
+  .bnt-inicio-res a{
     font-size: larger;
     color: white;
-    
+    text-decoration: none;
+  }
+
+  .btnPagSig{
+    width: 100vw;
+    height: 15%;
+
+    display: flex;flex-direction: column; align-items: center;justify-content: center;
+    animation-name: arriba-Abajo;
+     animation-duration: 2s;
+     animation-iteration-count: infinite;
+     
+  }
+
+  .btnPagSig img{
+    width: 50px;
+  }
+
+  @keyframes arriba-Abajo {
+    0%{
+      transform: translateY(10px);
+    }
+    50%{
+  transform: translateY(-10px);
+    }
+    100%{
+      transform: translateY(10px);
+    }
   }
   
 }

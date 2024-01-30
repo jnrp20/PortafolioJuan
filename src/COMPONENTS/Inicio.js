@@ -49,15 +49,20 @@ const Inicio = (props) => {
         </div>
         <div className="cont-btn-inicio-res">
           <div className="bnt-inicio-res">
-            <button href="">Information</button>
-            <button href="">SkillSet</button>
+            <button ><a href="#txt2">Information</a></button>
+            <button ><a href="#seccionSkillRes">SkillSet</a></button>
           </div>
           <div className="bnt-inicio-res">
-            <button href="">Projects</button>
-            <button href="">Contact Me</button>
+          <button ><a href="#">Projects</a></button>
+          <button ><a href="#">Contact Me</a></button>
           </div>
          </div>
-         
+         <div className="btnPagSig">
+
+         <a href="#txt2">
+           <img src={btnResponsive} alt="" />
+         </a>
+          </div>
         
       </div>
     </div>
