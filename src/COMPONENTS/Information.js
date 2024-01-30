@@ -63,42 +63,44 @@ const Information = () => {
       {/* este data-aos es para las animaciones de la libreria AOS */}
 
       <div className="cont-info">
-        <div
-          
-        >
+        <div>
           <h1>INFORMATION</h1>
         </div>
 
         <div className="div-info" data-aos="flip-left" data-aos-duration="1500">
           <div className="foto">
-            <h5>JUNIOR FRONT-END </h5>
-            <h5>DEVELOPER</h5>
+            <h4>JUNIOR </h4>
+            <h4>DEVELOPER</h4>
             <img src={fotoPerfil} />
-            <h5 id="age">NATIONALITY: COLOMBIAN</h5>
-            <h5 id="age">AGE: 22 YEARS</h5>
+            <h4 id="age">Country: Colombia 🇨🇴</h4>
+            <h4 id="age">Age: 22 years</h4>
           </div>
           <div className="cont-texto">
             <div className="texto" id="texto1">
-              <h1>NICOLAS ROMERO</h1>
+              <h1>Nicolas Romero</h1>
               <p>
-                Systems engineer, studying specialization in business Management
-                of Information systems. With subjects dedicated to management in
-                decision making, adapting them to the strategy of the
-                organization.
+                System Engineer, currently pursuing a specialization in
+                Management of Managerial Information Systems. The program
+                includes subjects dedicated to management in the context of
+                decision-making with information systems, adapting them to the
+                organization's strategy, and responding in real-time to changes
+                that may arise within it. In addition
               </p>
               <p>
-                Knowledge of different programming languages ​​such as Java,
-                JavaScript, C++, C#, HTML, CSS, TypeScript, JXS, Bootstrap,
-                Angular and React frameworks. Values ​​based on commitment,
-                order, efficiency and with great strength in teamwork, problem
-                solving thus achieving results expected business outcomes.
+                I have experience as a software developer in multiple
+                programming languages such as Java, JavaScript, C++, Python,
+                SQL, PHP, and HTML, as well as in the use of frameworks like
+                Angular, React, Spring Boot, among others.
               </p>
             </div>
             <div className="texto" id="texto2">
-              <h1>EDUCATION</h1>
+              <h1>Education</h1>
+              <br />
+              <br />
               <h4>UNDERGRADUATE – PROFESSIONAL</h4>
               <p> Systems Engineer </p>
               <p>University of Cundinamarca - 2023</p>
+              <br />
               <hr />
               <br />
               <h4>POSTGRADUATE – SPECIALIZATION</h4>
@@ -106,12 +108,13 @@ const Information = () => {
               <p>University of Cundinamarca - Currently Enrolled</p>
             </div>
             <div className="texto" id="texto3">
-              <h1>ADDITIONAL EDUCATION</h1>
+              <h1>Additional Education</h1>
+              <br />
               <h4>GOOGLE ACTIVATE</h4>
               <ol>
                 <li>Introduction to Web Development - 2023</li>
               </ol>
-
+              <br />
               <h4>UDEMY</h4>
               <ol>
                 <li>Course from Zero to Expert Angular - 2023</li>
@@ -121,6 +124,7 @@ const Information = () => {
                 <li>SQLite Database Course - 2023</li>
                 <li>Visual Studio 2022 C# - 2023</li>
               </ol>
+              <br />
               <h4>CARLOS SLIM FOUNDATION</h4>
               <ol>
                 <li>Programmer Object Oriented - 2022</li>
@@ -133,96 +137,6 @@ const Information = () => {
               <h5>/</h5>
               <h5>3</h5>
               <img src={btnSig} alt="" onClick={sig} />
-            </div>
-          </div>
-        </div>
-
-        <div
-          className="div-info-responsive"
-          data-aos="flip-left"
-          data-aos-duration="1500"
-          id="portadaResponsive"
-        >
-          <img id="fotoPer" src={fotoPerfil} alt="" />
-          <div className="cont-info-texto" id="portadaResponsive">
-            <h1>Nicolas Romero</h1>
-            <h5>Junior Front-End Developer</h5>
-
-            <div className="div-btn-info">
-              <div className="individual-btn-info">
-                <h1>22</h1>
-                <h5>AGE</h5>
-              </div>
-              <div className="individual-btn-info">
-                <h1>Colombia</h1>
-
-                <h5>CUNTRY</h5>
-              </div>
-            </div>
-            <div className="btn-modal">
-              <button variant="primary" onClick={handleShow}>
-                ABOUT ME
-              </button>
-
-              <Modal show={show} onHide={handleClose} centered>
-                <Modal.Header closeButton>
-                  <h1>ABOUT ME</h1>
-                </Modal.Header>
-                <Modal.Body>
-                  
-                  <p>
-                    Systems engineer, studying specialization in business
-                    Management of Information systems. With subjects dedicated
-                    to management in decision making, adapting them to the
-                    strategy of the organization.
-                  </p>
-                  <p>
-                    Knowledge of different programming languages ​​such as Java,
-                    JavaScript, C++, C#, HTML, CSS, TypeScript, JXS, Bootstrap,
-                    Angular and React frameworks. Values ​​based on commitment,
-                    order, efficiency and with great strength in teamwork,
-                    problem solving thus achieving results expected business
-                    outcomes.
-                  </p>
-                </Modal.Body>
-                <Modal.Header >
-                  <h1>EDUCATION</h1>
-                </Modal.Header>
-                <Modal.Body>
-                  
-                <h5>Undergraduate – Proffesional</h5>
-              <p> Systems Engineer </p>
-              <p>University of Cundinamarca - 2023</p>
-              <h5>Postgraduate – Specialization</h5>
-              <p> Business Management of Information systems</p>
-              <p>University of Cundinamarca - Currently Enrolled</p>
-                </Modal.Body>
-                <Modal.Header >
-                  
-                  <h1>ADDITIONAL EDUCATION</h1>
-                </Modal.Header>
-                <Modal.Body>
-                <h4>Google activate</h4>
-              <ol>
-                <li>Introduction to Web Development - 2023</li>
-              </ol>
-
-              <h4>Udemy</h4>
-              <ol>
-                <li>Course from Zero to Expert Angular - 2023</li>
-                <li>Course from Zero to Expert JavaScript - 2023</li>
-                <li> Front-End Web Developer Web Development Course - 2023</li>
-                <li>Postgre SQL Server Database Course - 2023</li>
-                <li>SQLite Database Course - 2023</li>
-                <li>Visual Studio 2022 C# - 2023</li>
-              </ol>
-              <h4>Carlos Slim Foundation</h4>
-              <ol>
-                <li>Programmer Object Oriented - 2022</li>
-              </ol>
-             
-                </Modal.Body>
-              </Modal>
             </div>
           </div>
         </div>

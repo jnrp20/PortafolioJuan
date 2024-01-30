@@ -4,6 +4,7 @@
     position: relative;
     scroll-margin-top: 18ex;
    text-align: center;
+  
   }
   
   
@@ -58,7 +59,14 @@
     }
     .bannerText{
       width: 100%;
-      height: max-content;
-      padding: 9% 5%;
-      display: flex;flex-direction: column; align-items: center;
+      height: 50%;
+      padding: 3% 5%;
+      display: flex;flex-direction: column; align-items: center; justify-content: space-between;
+    }
+    @media (max-width: 850px){
+      .padre-projects{
+        display: none;
+       
+      }
+     
     }

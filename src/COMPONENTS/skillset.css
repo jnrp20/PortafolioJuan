@@ -103,3 +103,9 @@
   transform: perspective(500px) rotateY(360deg);
   
  }
+
+ @media (max-width: 850px){
+  .padre-skill{
+    display: none;
+  }
+ }

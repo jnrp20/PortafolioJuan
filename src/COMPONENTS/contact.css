@@ -71,3 +71,14 @@
   #enviar:hover{
     background-color: #808080;
   }
+
+  @media (max-width: 850px){
+    .padre-contact{
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+    }
+    form{
+      width: 80vw;
+    }
+  }

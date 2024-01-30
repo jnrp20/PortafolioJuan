@@ -32,8 +32,9 @@ const Projects = () => {
             <img src={aliBanner} alt="" />
           </div>
           <div className="bannerText">
-            <h1>Birthday Invitation</h1>
-            <p>This party invitation was crafted using HTML and CSS, with HTML organizing the content and CSS styling the page, resulting in a stylish and personalized digital invitation.</p>
+            <h2>Birthday Invitation</h2>
+            
+            <p>This party invitation was made by me using HTML and CSS, with HTML organizing the content and CSS styling the page, resulting in a stylish and personalized digital invitation.</p>
             <Button href="https://invitacionalison.firebaseapp.com/" target="_blank">VISIT NOW</Button>
           </div>
         </div>
@@ -42,7 +43,7 @@ const Projects = () => {
             <img src={musicBanner} alt="" />
           </div>
          <div className="bannerText">
-           <h1>Music Academy WebSite</h1>
+           <h2>Music Academy WebSite</h2>
           <p>Coming soon</p>
          </div>
         </div>
@@ -51,7 +52,7 @@ const Projects = () => {
             <img src={albumBanner} alt="" />
           </div>
           <div className="bannerText" >
-            <h1>Digital Photo Album</h1>
+            <h2>Digital Photo Album</h2>
             <p>Coming Soon</p>
           </div>
         </div>
