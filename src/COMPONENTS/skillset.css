@@ -6,7 +6,7 @@
    flex-direction: column;
    align-items: center;
     /* esta propiedad sirve para que cuando en el inicio le demos click a un enlace, este nos baje hasta la sección evitando que el navbar estatico nos tape el principio del componente skills */
-    scroll-margin-top: 15ex;
+    scroll-margin-top: 18ex;
   }
   
   .cont-skill{
@@ -102,4 +102,22 @@
   
   transform: perspective(500px) rotateY(360deg);
   
+ }
+ .contSkillres{
+  display: none;
+ }
+
+ @media (max-width: 1000px){
+  .cont-skill,.cont-skill2{
+    display: none;
+  }
+  .contSkillres{
+    padding-top: 5%;
+    display: flex; flex-direction: column;
+    align-items: center;
+    
+    width: 100vw;
+    height: 100vh;
+    
+  }
  }

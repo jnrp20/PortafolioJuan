@@ -39,10 +39,10 @@ root.render(
             >
                 <div className="botones-nav-bar">
                   {/* se anadio cada classname para que los botons tuvieran la raya inferior con el hover */}
-                    <a className='btn-linea' href="#seccionInicio">MAIN</a>
-                    <a className='btn-linea' href="#seccionInfo">INFORMATION</a>
-                    <a className='btn-linea' href="#seccionSkill">SKILLSET</a>
-                    <a className='btn-linea' href="#seccionProjects">PROJECTS</a>
+                    <a className='btn-linea' href="#seccionInicio">Main</a>
+                    <a className='btn-linea' href="#seccionInfo">Information</a>
+                    <a className='btn-linea' href="#seccionSkill">Skillset</a>
+                    <a className='btn-linea' href="#seccionProjects">Projects</a>
                     {/* <a className='btn-linea' href="#seccionExperience">EXPERIENCE</a> */}
                     <a className='btn-linea' href="#seccionContact">CONTACT ME</a>
                     <hr />
