@@ -64,7 +64,7 @@ const Information = () => {
 
       <div className="cont-info">
         <div>
-          <h1>INFORMATION</h1>
+          <h1>A little bit about me</h1>
         </div>
 
         <div className="div-info" data-aos="flip-left" data-aos-duration="1500">
@@ -92,6 +92,11 @@ const Information = () => {
                 SQL, PHP, and HTML, as well as in the use of frameworks like
                 Angular, React, Spring Boot, among others.
               </p>
+              <div className="btnDownload1">
+                <a href="https://mailunicundiedu-my.sharepoint.com/:f:/g/personal/jnicolasromero_ucundinamarca_edu_co/Em6J9nF3CpdGnqXVjSQKH2kBY9Xv5jvJW4OCtrLoPcc8EA?e=Du1lYp" target="_blank">
+                  <button>View CV</button>
+                </a>
+              </div>
             </div>
             <div className="texto" id="texto2">
               <h1>Education</h1>
@@ -148,11 +153,20 @@ const Information = () => {
         <h4>A little bit about me</h4>
 
         <div className="contInfoScroll">
-          <div className="infoTextoRes" data-aos="zoom-in" data-aos-duration="1000">
+          <div
+            className="infoTextoRes"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
             <h4 id="age">Country: Colombia 🇨🇴</h4>
             <h4 id="age">Age: 22 </h4>
           </div>
-          <div className="infoTextoRes" id="txt2" data-aos="zoom-in" data-aos-duration="1000">
+          <div
+            className="infoTextoRes"
+            id="txt2"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
             <p>
               System Engineer, currently pursuing a specialization in Management
               of Managerial Information Systems. The program includes subjects
@@ -162,7 +176,11 @@ const Information = () => {
               In addition
             </p>
           </div>
-          <div className="infoTextoRes" data-aos="zoom-in" data-aos-duration="1000">
+          <div
+            className="infoTextoRes"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
             <p>
               I have experience as a software developer in multiple programming
               languages such as Java, JavaScript, C++, Python, SQL, PHP, and
@@ -175,7 +193,7 @@ const Information = () => {
         <img src={slide} alt="" id="slideImg" />
 
         <div className="btnDownload">
-          <a href="https://mailunicundiedu-my.sharepoint.com/:f:/g/personal/jnicolasromero_ucundinamarca_edu_co/Em6J9nF3CpdGnqXVjSQKH2kBY9Xv5jvJW4OCtrLoPcc8EA?e=Du1lYp">
+          <a href="https://mailunicundiedu-my.sharepoint.com/:f:/g/personal/jnicolasromero_ucundinamarca_edu_co/Em6J9nF3CpdGnqXVjSQKH2kBY9Xv5jvJW4OCtrLoPcc8EA?e=Du1lYp" target="_blank">
             <button>View CV</button>
           </a>
         </div>
