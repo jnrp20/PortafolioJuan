@@ -21,7 +21,7 @@ const Projects = () => {
         data-aos-easing="linear"
         data-aos-duration="1500"
       >
-        <h1>PROJECTS</h1>
+        <h1>My projects</h1>
       </div>
       <div className="cont-projects">
         <div className="cardProjects" id="party">
@@ -36,11 +36,11 @@ const Projects = () => {
               organizing the content and CSS styling the page, resulting in a
               stylish and personalized digital invitation.
             </p>
-            <Button
+            <Button className="btn btn-danger"
               href="https://invitacionalison.firebaseapp.com/"
               target="_blank"
             >
-              VISIT NOW
+              Visit Now
             </Button>
           </div>
         </div>

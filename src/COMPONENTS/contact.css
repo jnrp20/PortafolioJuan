@@ -59,6 +59,7 @@
   form textarea{
     padding: 2% 3%;
     height: 50%;
+    font-family: 'Poppins', sans-serif;
   }
 #btnCaptcha{
   margin-top: 2%;

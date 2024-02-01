@@ -2,8 +2,9 @@
     width: 100%;
     height: auto;
     position: relative;
-    scroll-margin-top: 18ex;
+    scroll-margin-top: 12ex;
    text-align: center;
+   padding-top: 3%;
   
   }
   
@@ -63,6 +64,10 @@
       padding: 3% 5%;
       display: flex;flex-direction: column; align-items: center; justify-content: space-between;
     }
+.bannerText h2{
+  font-family: 'Poppins', sans-serif;
+}
+
     @media (max-width: 850px){
       .padre-projects{
         display: none;

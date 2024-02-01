@@ -6,6 +6,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+
 body {
 
   margin: 0;
@@ -126,10 +128,105 @@ background-color: white;
 }
 
 
+footer{
+  width: 100vw;
+  height: 30vh;
+  background-color: #2D3F50;
+  padding-top: 2%;
+  font-family: 'Poppins', sans-serif;
+}
+
+footer #p{
+  color: #9f9e9e;
+}
+
+.socialDiv{
+  width: 100vw; height: 10%;  position: relative;
+  display: flex; justify-content: center; align-items: center;
+}
+
+.socialDiv::before {
+
+  content: "";
+  position: absolute;
+  width: 44vw;
+  height: 1px;
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+}
+.socialDiv::after {
+
+  content: "";
+  position: absolute;
+  width: 44vw;
+  height: 1px;
+  background-color: #fff;
+  bottom: 0;
+  right: 0;
+}
+
+
+.divImg{
+  width: 2%;
+  height:100%;
+  
+}
+
+.divImg img{
+width: 70%; height: 100%; object-fit: cover;
+}
+
+
+.infoFooter{
+  width: 100vw;
+  height: 90%;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  color:#fff;
+}
+
 @media (max-width: 850px) {
  .nav-bar{
   display: none;
  }
+footer{
+  padding-top: 5%;
+  text-align: center;
+}
+
+ .socialDiv{
+  width: 100vw; height: 10%;  position: relative; 
+  
+}
+.divImg{
+  width: 10%;
+  height:100%;
+  text-align: center;
+}
+
+.divImg img{
+width: 40%; height: 70%; object-fit: fill;
+}
+
+.socialDiv::before {
+
+  
+  width: 20vw;
+  height: 1px;
+  
+  
+}
+.socialDiv::after {
+
+ 
+  width: 20vw;
+  height: 1px;
+  
+}
+.infoFooter{
+  padding: 0 2%;
+}
+
 
 }
 @media (max-width: 1236px){
