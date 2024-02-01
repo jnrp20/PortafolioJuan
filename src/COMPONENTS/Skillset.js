@@ -171,7 +171,112 @@ const Skillset = () => {
       {/* ---------------------------------------------aqi empieza el responsive------------------------------ */}
 
       <div className="contSkillres" id="seccionSkillRes">
-<h4>My SkillSets</h4>
+        <h2 >My SkillSets</h2>
+        <div className="contSkillCard" data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="200" id="azul">
+          <h5>Front end</h5>
+
+          <div className="individualSkill" >
+            <p>HTML</p>
+            <div className="barra barra70"></div>
+          </div>
+          <div className="individualSkill">
+            <p>Css</p>
+            <div className="barra barra50"></div>
+          </div>
+          <div className="individualSkill">
+            <p>JavaScript</p>
+            <div className="barra barra60"></div>
+          </div>
+          <div className="individualSkill">
+            <p>TypeScript</p>
+            <div className="barra barra50"></div>
+          </div>
+          <div className="individualSkill">
+            <p>Angular</p>
+            <div className="barra barra70"></div>
+          </div>
+          <div className="individualSkill">
+            <p>React</p>
+            <div className="barra barra60"></div>
+          </div>
+          
+        </div>
+        <div className="contSkillCard" data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="200" id="verde">
+          <h5>Back end</h5>
+
+          <div className="individualSkill" >
+            <p>C++</p>
+            <div className="barra barra80"></div>
+          </div>
+          <div className="individualSkill">
+            <p>Java</p>
+            <div className="barra barra80" ></div>
+          </div>
+          <div className="individualSkill">
+            <p>Python</p>
+            <div className="barra barra30"></div>
+          </div>
+          <div className="individualSkill">
+            <p>Spring Boot</p>
+            <div className="barra barra30"></div>
+          </div>
+          <div className="individualSkill">
+            <p>Express</p>
+            <div className="barra barra60"></div>
+          </div>
+          <div className="individualSkill">
+            <p>.Net</p>
+            <div className="barra barra20"></div>
+          </div>
+          
+        </div>
+        <div className="contSkillCard" data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="200" id="amarillo">
+          <h5>Desing</h5>
+
+          <div className="individualSkill">
+            <p>bootstrap</p>
+            <div className="barra barra70"></div>
+          </div>
+          <div className="individualSkill">
+            <p>Tailwind</p>
+            <div className="barra barra20"></div>
+          </div>
+          <div className="individualSkill">
+            <p>PhotoShop</p>
+            <div className="barra barra80"></div>
+          </div>
+          <div className="individualSkill">
+            <p>Premiere</p>
+            <div className="barra barra70"></div>
+          </div>
+          <div className="individualSkill">
+            <p>LigthRoom</p>
+            <div className="barra barra90"></div>
+          </div>
+          
+        </div>
+        <div className="contSkillCard " data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="200" id="rojo">
+          <h5>Projects</h5>
+
+          <div className="individualSkill" >
+            <p>Scrum</p>
+            <div className="barra barra90"></div>
+          </div>
+          <div className="individualSkill">
+            <p>Git</p>
+            <div className="barra barra70"></div>
+          </div>
+          <div className="individualSkill">
+            <p>Jira</p>
+            <div className="barra barra80"></div>
+          </div>
+          <div className="individualSkill">
+            <p>VS code</p>
+            <div className="barra barra80"></div>
+          </div>
+          
+          
+        </div>
       </div>
     </div>
   );

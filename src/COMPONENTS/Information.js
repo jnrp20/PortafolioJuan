@@ -179,7 +179,7 @@ const Information = () => {
           <div
             className="infoTextoRes"
             data-aos="zoom-in"
-            data-aos-duration="1000"
+            data-aos-duration="1000" data-aos-offset="300"
           >
             <p>
               I have experience as a software developer in multiple programming
