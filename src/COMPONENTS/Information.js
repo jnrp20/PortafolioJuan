@@ -11,11 +11,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 const Information = () => {
-  // para el Modal, esto lo da bootstrap
-  const [show, setShow] = useState(false);
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
-
+ 
   useEffect(() => {
     Aos.init();
   }, []);

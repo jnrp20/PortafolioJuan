@@ -342,7 +342,7 @@ const Skillset = () => {
             <div className="barra barra60"></div>
           </div>
           <div className="individualSkill">
-            <p>.Net</p>
+            <p>C#</p>
             <div className="barra barra20"></div>
           </div>
         </div>

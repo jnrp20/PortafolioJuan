@@ -8,7 +8,7 @@ import LogoFace from "../src/image/facebook.png";
 import LogoTiktok from "../src/image/tik-tok.png";
 import LogoLinkIn from "../src/image/linkedin.png";
 import LogoTwitter from "../src/image/twiter.png";
-
+import LogoFlotante from "../src/image/btnflotante.png";
 // importantisimo para poder usar boostrap y no olvidar instalar en la consola con "npm install react-bootstrap bootstrap"
 import "bootstrap/dist/css/bootstrap.min.css";
 import Inicio from "./COMPONENTS/Inicio";
@@ -28,6 +28,13 @@ root.render(
 
     {/* se tuvo que crear este div despues del componente inicio para que el navbar pueda recorrer todos los componentes de forma fija sin desaparecer, ya que se usa la propiedad sticky y eso hace que deje de ser fijo cuando se acaba su div padre */}
     <div className="fondo">
+      <div className="contFlotante">
+        <div  className="flotante">
+         <a href="#seccionInicioRes">
+           <img src={LogoFlotante} alt="" />
+         </a >
+        </div>
+      
       <div className="nav-bar">
         <div className="botones-nav-bar">
           {/* se anadio cada classname para que los botons tuvieran la raya inferior con el hover */}
@@ -51,8 +58,9 @@ root.render(
         </div>
       </div>
       <Information />
+
       <Skillset />
-      {/* <Experience/> */}
+
       <Projects />
       <Contact />
 
@@ -92,12 +100,14 @@ root.render(
         </div>
         <div className="infoFooter">
           <h4>Nicolas Romero</h4>
-          <p >Copyright© 2024. All rights reserved</p>
-          <p id="p">This page was created independently by me using the React framework.</p>
+          <p>Copyright© 2024. All rights reserved</p>
+          <p id="p">
+            This page was created independently by me using React.
+          </p>
           <p id="p">Follow me on my social media.</p>
         </div>
       </footer>
-    </div>
+    </div></div>
   </React.StrictMode>
 );
 

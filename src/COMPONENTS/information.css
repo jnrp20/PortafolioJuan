@@ -39,6 +39,7 @@
 
   height: auto;
   background-color: rgb(97, 97, 97);
+  /* background-color: #496782; */
 }
 .foto img {
   width: 70%;
@@ -82,11 +83,14 @@
 .btnDownload1 button{
   width: 8vw;
   height:4vh;
-  background-color: #1c683b;
+  /* background-color: #1c683b; */
+  background-color: #496782;
   color: #fff;
   font-family: 'Poppins', sans-serif;
   border: none;
-  box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.75);
+  border-radius: 10px;
+  margin-bottom: 2%;
+  box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.478);
   
 }
 
@@ -148,11 +152,15 @@
 }
 
 
-@media (max-width: 1000px) {
-  
+@media (max-width: 850px ) and (min-height: 720px ) {
+  .padre-info{
+    scroll-margin-top: 0;
+    
+  }
 .cont-info{
   display: none;
 }
+
 .contInfoRes{
   scroll-margin-top: 1ex;
   display: block;
@@ -166,7 +174,7 @@ padding: 15% 0;
 }
 .contInfoRes #slideImg{
   position: absolute;
-  bottom: 30vh;
+  bottom: 37vh;
   width: 20%;
   height: 7%;
   filter: opacity(30%)
@@ -183,7 +191,7 @@ width: 100vw;
   overflow-y: hidden;
   align-items: center;
   
-
+  scroll-snap-type: x mandatory;
 
 }
 .contInfoRes p, h4{
@@ -203,24 +211,26 @@ width: 100vw;
 
 .contInfoScroll .infoTextoRes{
   /* scroll-margin-top: 25ex; */
-  scroll-margin: 35ex  12ex 0 0;
+  
 padding: 3% 5%;
   margin-top: 6%;
   min-width: 90vw;
   height: auto;
  margin: 2%;
-
+scroll-snap-align: center;
   
 }
 
 .btnDownload button{
   width: 40vw;
   height:6vh;
-  background-color: #1c683b;
+  /* background-color: #1c683b; */
+  background-color: #496782;
   color: #fff;
   font-family: 'Poppins', sans-serif;
+  border-radius: 10px;
   border: none;
-  box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.478);
   
 }
 
