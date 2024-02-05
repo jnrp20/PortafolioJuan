@@ -1,5 +1,5 @@
 import React from "react";
-import videoPortada from "../image/videoportada.mp4";
+import videoPortada from "../image/videoportada2.mp4";
 import btnResponsive from "../image/flechaAbajo.png";
 import "../COMPONENTS/inicio.css";
 import fotoPerfil from "../image/profie.png";
@@ -30,7 +30,8 @@ const Inicio = (props) => {
         </div>
       </div>
       {/* ----------------------------------------------------------AQUI EMPIEZA EL RESPONSIVE---------------------------------------------------------- */}
-      <div className="padre-inicio-res">
+      <div className="padre-inicio-res" id="seccionInicioRes">
+        
       <div className="video-container">
           <video autoPlay loop src={videoPortada}></video>
         </div>
@@ -39,7 +40,7 @@ const Inicio = (props) => {
         </header>
 
         <div className="container-foto-res">
-          <img src={fotoPerfil} alt="" id="imagen"/>
+          <img src={fotoPerfil} alt="" id="imagenPerfil"/>
         </div>
 
         <div className="txtiniciores">
@@ -49,12 +50,12 @@ const Inicio = (props) => {
         </div>
         <div className="cont-btn-inicio-res">
           <div className="bnt-inicio-res">
-            <button ><a href="#txt2">Information</a></button>
+            <button ><a href="#secciónInfoRes">Information</a></button>
             <button ><a href="#seccionSkillRes">SkillSet</a></button>
           </div>
           <div className="bnt-inicio-res">
-          <button ><a href="#">Projects</a></button>
-          <button ><a href="#">Contact Me</a></button>
+          <button ><a href="#seccionProjects">Projects</a></button>
+          <button ><a href="#seccionContact">Contact Me</a></button>
           </div>
          </div>
          <div className="btnPagSig">

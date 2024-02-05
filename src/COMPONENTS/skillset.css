@@ -1,73 +1,57 @@
 .padre-skill {
-    width: 100%;
-    
-    position: relative;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-    /* esta propiedad sirve para que cuando en el inicio le demos click a un enlace, este nos baje hasta la sección evitando que el navbar estatico nos tape el principio del componente skills */
-    scroll-margin-top: 18ex;
-  }
-  
-  .cont-skill{
-    text-align: center;
-    width: 80vw; height: 70vh;
-   
-  }
-  .cont-skill2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    width: 70vw; height: 50vh;
-   
-  }
-  .skill-logos{
-   
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 30%;
-   
-    
-    overflow: hidden;/* Para asegurarte de que la imagen no sobresalga del contenedor */
-   margin-top: 4%;
-    
-  }
- 
-  .card{
-    position: relative;
-    width: 16%;
-    height: 100%;
-    background: none;
-    border: none;
-    margin: 0 2%;
-    
-  }
-  .card img{
-    
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
-  .card div{
-    position: absolute;
-    display: flex;
-    width: 100%;
-    height: 100%;
-   
-    /* este atributo oculta el objeto si se está viendo su parte trasera */
+  width: 100%;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* esta propiedad sirve para que cuando en el inicio le demos click a un enlace, este nos baje hasta la sección evitando que el navbar estatico nos tape el principio del componente skills */
+  scroll-margin-top: 18ex;
+}
+
+.cont-skill {
+  text-align: center;
+  width: 70vw;
+  height: 40vh;
+}
+
+.skill-logos {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 45%;
+
+  overflow: hidden; /* Para asegurarte de que la imagen no sobresalga del contenedor */
+  margin-top: 4%;
+}
+
+.card {
+  position: relative;
+  width: 16%;
+  height: 80%;
+  background: none;
+  border: none;
+  margin: 0 2%;
+}
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.card div {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+
+  /* este atributo oculta el objeto si se está viendo su parte trasera */
   backface-visibility: hidden;
   transition: 0.7s;
-  }
-  .card .front{
- 
- 
+}
+.card .front {
   transform: perspective(500px) rotateY(0deg);
- }
- .card .back{
-  
+}
+.card .back {
   background-color: rgb(255, 255, 255);
   transform: perspective(500px) rotateY(180deg);
   border-radius: 33px 33px 33px 33px;
@@ -75,49 +59,199 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
-  
- }
+}
 
- .back h1{
+.back h1 {
   font-size: 25px;
- }
- .back h2{
-  color:  #f89518 ;
- }
- .back h3{
-  color:  #45dc4c ;
- }
- .back h4{
-  color:  #dc5245 ;
+}
+.back h2 {
+  color: #f89518;
+}
+.back h3 {
+  color: #45dc4c;
+}
+.back h4 {
+  color: #dc5245;
   font-size: 30px;
- }
+}
 
- .card:hover .front{
-  
+.card:hover .front {
   transform: perspective(500px) rotateY(180deg);
-  
- }
- .card:hover .back{
-  
+}
+.card:hover .back {
   transform: perspective(500px) rotateY(360deg);
-  
- }
- .contSkillres{
+}
+.contSkillres {
+  display: none;
+}
+
+
+
+/* ------------------------------------estilos responsives fuera del @media  porque si me siirve para la version de pc---------------------*/
+
+#seccionSkillRes{
+  text-align: center;
+}
+.ContainerTemporal{
+  padding-top: 2%;
+  text-align: center;
+  width: 100vw;
+  background-color: #757272;
+  /* background-color: #496782; */
+  color: white;
+
+}
+.contSkillres {
+ 
+  display: flex;
+  justify-content: center;
+background-color: #757272;
+/* background-color: #496782; */
+  width: 100vw;
+  height: auto;
+ 
+}
+.contSkillres h2{
+  color: white;
+}
+
+.contSkillCard {
+  display: flex; flex-direction: column; justify-content: center;
+  text-align: center;
+  position: relative;
+  width: 80vw;
+ 
+  padding: 2% 2%;
+  margin: 5% 2% 7% 2%;
+background-color: #ffffff;
+box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
+border-radius: 20px;
+}
+
+.individualSkill{
+
+margin: 3% 0;
+display: flex;
+justify-content: space-between;
+text-align: center;
+align-items: center;
+
+width: 100%;
+height: 7%;
+
+}
+.individualSkill p{
+
+margin: 0;
+width: 40%;
+
+}
+.barra{
+position: relative;  
+min-width: 60%;
+height: 15px;
+background-color: #c9c6c6;
+border-radius: 80px;
+overflow-x: hidden;
+}
+
+.barra::after{
+content: "";
+position: absolute;
+width: 100%;
+height: 100%;
+background-color: var(--colorBarra);
+border-radius: 80px;
+left: -100%;
+/* el forwards en animaciones sirve para que la animacion se qude donde terminó y no se reinicie  */
+animation: llenarBarra 2s ease-in-out forwards;
+}
+#azul{
+--colorBarra:  #2997c6;
+}
+#verde{
+--colorBarra:  #1eaa58;
+}
+#amarillo{
+--colorBarra:  #ecbe26;
+}
+#rojo{
+--colorBarra:  #f85c56;
+}
+
+
+.barra10::after{
+--valorBarra:10%;
+
+}
+.barra20::after{
+--valorBarra:20%;
+
+}
+.barra30::after{
+--valorBarra:30%;
+
+}
+.barra40::after{
+--valorBarra:40%;
+/* --colorBarra: #f07d36; */
+}
+.barra50::after{
+--valorBarra:50%;
+
+}
+.barra60::after{
+--valorBarra:60%;
+
+}
+.barra70::after{
+--valorBarra:70%;
+
+}
+.barra80::after{
+--valorBarra:80%;
+
+}
+.barra90::after{
+--valorBarra:90%;
+
+}
+
+@keyframes llenarBarra {
+to{
+  transform: translateX(var(--valorBarra));
+}
+}
+
+#TituloSkillRes{
   display: none;
  }
 
- @media (max-width: 1000px){
-  .cont-skill,.cont-skill2{
+ #TituloSkillNoRes{
+  display: block;
+ }
+
+@media (max-width: 850px ) and (min-height: 720px ) {
+  .cont-skill,
+  .cont-skill2 {
     display: none;
   }
-  .contSkillres{
-    padding-top: 5%;
-    display: flex; flex-direction: column;
-    align-items: center;
-    
-    width: 100vw;
-    height: 100vh;
-    
-  }
+  #TituloSkillNoRes{
+    display: none;
+   }
+ #TituloSkillRes{
+  display: block;
  }
+  .contSkillres{
+    padding: 5% 0;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  scroll-margin-top: 0;
+  overflow: hidden;
+  }
+  .contSkillCard{
+    padding: 2% 4%;
+    margin: 5% 0 7% 0;
+  }
+}

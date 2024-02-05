@@ -11,11 +11,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 const Information = () => {
-  // para el Modal, esto lo da bootstrap
-  const [show, setShow] = useState(false);
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
-
+ 
   useEffect(() => {
     Aos.init();
   }, []);
@@ -179,7 +175,7 @@ const Information = () => {
           <div
             className="infoTextoRes"
             data-aos="zoom-in"
-            data-aos-duration="1000"
+            data-aos-duration="1000" data-aos-offset="300"
           >
             <p>
               I have experience as a software developer in multiple programming

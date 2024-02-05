@@ -1,72 +1,126 @@
 .padre-projects {
-    width: 100%;
-    height: auto;
-    position: relative;
-    scroll-margin-top: 18ex;
-   text-align: center;
-  
-  }
-  
-  
-  .cont-projects{
-  
-    width: 100%;
-    padding: 0 10%;
-    height: auto;
-   display: flex;
-   justify-content: space-around;
+  width: 100%;
+  height: auto;
 
-  }
+  scroll-margin-top: 12ex;
+  text-align: center;
+  padding-top: 3%;
+}
 
+.cont-projects {
+  width: 100%;
+  padding: 0 10%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
 
- 
-  .cardProjects{
-    box-shadow: 3px 2px 13px 3px rgba(0,0,0,0.67);
-    overflow: hidden;
-    width: 22vw;
- height: 60vh;
- margin-top: 3%;
- border-radius: 27px 27px 27px 27px;
-    background-color: #ffffff;
-    filter: grayscale(100%);
-        }
+.cardProjects {
+  box-shadow: 3px 2px 13px 3px rgba(0, 0, 0, 0.67);
 
-#party:hover, #music:hover, #album:hover{
- transition: 0.5s;
+  width: 22vw;
+  height: 60vh;
+  margin-top: 3%;
+  border-radius: 27px 27px 27px 27px;
+  background-color: #ffffff;
+  filter: grayscale(100%);
+}
+
+#party:hover,
+#music:hover,
+#album:hover {
+  transition: 0.5s;
   filter: grayscale(0%);
 }
 
-#party:hover{
+#party:hover {
   box-shadow: -2px -5px 15px 5px rgba(255, 103, 103, 0.67);
 }
-#music:hover{
-  box-shadow: -2px 5px 15px 5px rgba(230,185,66,0.67);
+#music:hover {
+  box-shadow: -2px 5px 15px 5px rgba(230, 185, 66, 0.67);
 }
-#album:hover{
-  box-shadow: -2px 5px 15px 5px rgba(30,175,187,0.67);
+#album:hover {
+  box-shadow: -2px 5px 15px 5px rgba(30, 175, 187, 0.67);
 }
 
-    .imgBanner{
-      width: 100%; 
-      height: 40%; 
-      overflow: hidden;
-     
-    }
-    .imgBanner img{
-      width: 100%; 
-    height: auto; 
-    display: block;
-    }
-    .bannerText{
-      width: 100%;
-      height: 50%;
-      padding: 3% 5%;
-      display: flex;flex-direction: column; align-items: center; justify-content: space-between;
-    }
-    @media (max-width: 850px){
-      .padre-projects{
-        display: none;
-       
-      }
-     
-    }
+.imgBanner {
+  width: 100%;
+  height: 40%;
+  overflow: hidden;
+}
+.imgBanner img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 7%;
+}
+.bannerText {
+  width: 100%;
+  height: 50%;
+  padding: 3% 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.bannerText h2 {
+  font-family: "Poppins", sans-serif;
+}
+.infiBtnPagSig img{
+  display: none;
+}
+.cardProjects a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+@media (max-width: 850px ) and (min-height: 720px ) {
+  .padre-projects {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    scroll-margin-top: 0;
+  }
+
+  .cont-projects {
+    position: relative;
+    overflow: scroll;
+    max-width: 100%;
+    justify-content: start;
+    margin-top: 20%;
+
+    /* esto es para que el scroll siempre se ancle y muestr el contenido completo y no se quede el scroll en medio de dos objetos */
+    scroll-snap-type: x mandatory;
+  }
+  .cardProjects {
+    /* esta propiedad es para que al hacer scroll el elemento se centre solo en el objeto padre, pero para eso debe tener el contenedor la propiedad scroll-snap-type: x mandatory; */
+    scroll-snap-align: center;
+    min-width: 75vw;
+    height: auto;
+    box-shadow: 1px 1px 5px 3px rgba(204, 204, 204, 1);
+
+    margin: 5% 5%;
+    filter: grayscale(0);
+  }
+  
+ 
+  #music, #album{
+    filter: grayscale(100%);
+  }
+
+ 
+  .infiBtnPagSig img{
+    display: flex; 
+    margin-top: 6vh;
+    width: 10vw;
+    filter: opacity(30%);
+  
+  
+      animation-name: arriba-Abajo;
+       animation-duration: 2s;
+       animation-iteration-count: infinite;
+  } .infiBtnPagSig{
+  display: flex; justify-content: center;
+  }
+}
