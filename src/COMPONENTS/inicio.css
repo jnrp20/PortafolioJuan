@@ -93,6 +93,9 @@
     background-image: url(../image/videoportada2.mp4);
     
   }
+  .video-container video{
+    display: none;
+  }
   
   .header-inicio-res {
     display: flex;
@@ -168,7 +171,7 @@
   .btnPagSig{
     width: 100vw;
     height: 15%;
-
+    scroll-margin-top: 2ex;
     display: flex;flex-direction: column; align-items: center;justify-content: center;
     animation-name: arriba-Abajo;
      animation-duration: 2s;
