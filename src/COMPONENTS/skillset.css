@@ -231,7 +231,7 @@ to{
   display: block;
  }
 
-@media (max-width: 850px ) and (min-height: 720px ) {
+ @media (max-width: 600px ) and (min-height: 600px ) {
   .cont-skill,
   .cont-skill2 {
     display: none;

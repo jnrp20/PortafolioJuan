@@ -152,7 +152,7 @@
 }
 
 
-@media (max-width: 850px ) and (min-height: 720px ) {
+@media (max-width: 600px ) and (min-height: 600px ) {
   .padre-info{
     scroll-margin-top: 0;
     
