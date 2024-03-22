@@ -1,76 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto+Slab&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+
 body {
-
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-
-html{
+html {
   scroll-behavior: smooth;
-
 }
-h1{
-  font-family: 'Poppins', sans-serif;
+h1 {
+  font-family: "Poppins", sans-serif;
+}
+
+h4 {
+  font-family: "Poppins", sans-serif;
+}
+h5 {
+  font-family: "Poppins", sans-serif;
+}
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+p {
+  font-family: "Poppins", sans-serif;
+ 
+}
+
+a {
+  font-family: "Poppins", sans-serif;
+}
+
+li {
+  font-family: "Poppins", sans-serif;
+}
+
+input::placeholder {
+  font-family: "Poppins", sans-serif;
+}
+.fondo {
+  
+  width: 100%;
+  height: auto;
+  position: relative;
   
 }
 
-h4{
-  font-family: 'Poppins', sans-serif;
-}
-h5{
-  font-family: 'Poppins', sans-serif;
-}
-h6{
-  font-family: 'Poppins', sans-serif;
-}
-p{
-  font-family: 'Poppins', sans-serif;
- 
- 
-}
-
-a{
-  font-family: 'Poppins', sans-serif;
-}
-
-li{
-  font-family: 'Poppins', sans-serif;
-}
-
-input::placeholder{
-  font-family: 'Poppins', sans-serif;
-}
-.fondo{
-  width: 100%;
-  height: auto;
-  background-color: #DFDFDF;
+.flotante {
+  display: none;
 }
 
 
 .nav-bar {
-background-color: white;
-/* el position fixed siempre es referente al html y no al div, mientras que sticky es referente a un div, osea que se queda fijo pero a partir de un div, es la mezcla entre fixed y relative del padre */
+  background-color: white;
+  /* el position fixed siempre es referente al html y no al div, mientras que sticky es referente a un div, osea que se queda fijo pero a partir de un div, es la mezcla entre fixed y relative del padre */
 
- position: sticky;
- /* aqui las propiedades top, bottom, left , rigth sirven para decirle al programa que a partir de esa ubicación se quede fijo, cuando se salga del div deja de ser fijo */
- top: 0;
+  position: sticky;
+  /* aqui las propiedades top, bottom, left , rigth sirven para decirle al programa que a partir de esa ubicación se quede fijo, cuando se salga del div deja de ser fijo */
+  top: 0;
 
- /* este z-index sirve para que el nav bar esté encima de todos los elementos osea sea la capa de arriba */
- z-index: 1;
+  /* este z-index sirve para que el nav bar esté encima de todos los elementos osea sea la capa de arriba */
+  z-index: 1;
 
- 
- 
   width: 100%;
- 
-  color: rgb(34, 34, 34);
+
   padding: 0% 2%;
 }
 .botones-nav-bar {
@@ -78,20 +77,16 @@ background-color: white;
   text-align: center;
   width: 100%;
   height: fit-content;
-  
-  
 }
 
-.botones-nav-bar a{
-  color: #555454;
+.botones-nav-bar a {
+  color: #2d3f50;
   cursor: pointer;
   padding: 1% 2%;
- text-decoration: none;
+  text-decoration: none;
   font-size: 150%;
   background: none;
   border: none;
- 
- 
 }
 .btn-linea {
   display: inline-block;
@@ -103,7 +98,6 @@ background-color: white;
   overflow: hidden;
 }
 .btn-linea:before {
-
   content: "";
   position: absolute;
   z-index: -1;
@@ -120,38 +114,139 @@ background-color: white;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-.btn-linea:hover:before, .btn-linea:focus:before, .btn-linea:active:before {
+.btn-linea:hover:before,
+.btn-linea:focus:before,
+.btn-linea:active:before {
   left: 0;
   right: 0;
 }
 
+footer {
+  width: 100vw;
+  height: 31vh;
+  background-color: #2d3f50;
+  padding-top: 2%;
+  font-family: "Poppins", sans-serif;
+}
 
-@media (max-width: 850px) {
- .nav-bar{
-  display: none;
- }
+footer #p {
+  color: #9f9e9e;
+}
+
+.socialDiv {
+  width: 100vw;
+  height: 11%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialDiv::before {
+  content: "";
+  position: absolute;
+  width: 44vw;
+  height: 1px;
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+}
+.socialDiv::after {
+  content: "";
+  position: absolute;
+  width: 44vw;
+  height: 1px;
+  background-color: #fff;
+  bottom: 0;
+  right: 0;
+}
+
+.divImg {
+  width: 2%;
+  height: 100%;
+}
+
+.divImg img {
+  width: 70%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.infoFooter {
+  width: 100vw;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+@media (max-width: 850px ) and (min-height: 720px ) {
+  
+  .nav-bar {
+    display: none;
+  }
+  .fondo{
+    position: relative;
+  }
+  .contFlotante{
+    display: block;
+    width: 100vw; height: auto;
+    position: relative;
+   
+  }
+  .flotante {
+    z-index: 1;
+    display: block;
+    position: sticky;
+    width: 11vw;
+    height: 5vh;
+    background-color: #fff;
+    box-shadow: 1px 1px 36px -3px rgba(13, 211, 255, 0.94);
+    border-radius: 50%;
+    top: 90vh;
+    left: 80%;
+  }
+  .flotante img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+  footer {
+    padding-top: 5%;
+    text-align: center;
+  }
+
+  .socialDiv {
+    width: 100vw;
+    height: 10%;
+    position: relative;
+  }
+  .divImg {
+    width: 10%;
+    height: 100%;
+    text-align: center;
+  }
+
+  .divImg img {
+    width: 40%;
+    height: 70%;
+    object-fit: fill;
+  }
+
+  .socialDiv::before {
+    width: 20vw;
+    height: 1px;
+  }
+  .socialDiv::after {
+    width: 20vw;
+    height: 1px;
+  }
+  .infoFooter {
+    padding: 0 2%;
+  }
+
 
 }
-@media (max-width: 1236px){
 
-  .botones-nav-bar {
-    
-    padding-top: 1%;
-    
-  }
-  .botones-nav-bar a{
-    
-    cursor: pointer;
-    
-  font-weight: 500;
-    font-size:115%;
-    
-  }
-  .botones-nav-bar a:hover {
-    font-size: 115%;
-    padding: 0% 2%;
-    
-    color: rgb(255, 255, 255);
-    background: rgb(137, 137, 137);
-  }
-}
