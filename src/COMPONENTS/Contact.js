@@ -8,10 +8,30 @@ import { useState } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+
+// el toast es para cuando le den enviar al formulario, salga el mensaje de "enviado". la herramienta está guardada en el firefox, carpeta trabajo juan. hay que importar el "npm i react-toastify" en la terminal
+import { Bounce, ToastContainer, Zoom, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 const Contact = () => {
   useEffect(() => {
     Aos.init();
   }, []);
+
+// esta constante notify, viene con el toast de el formulario linea 13
+  const notify = () => toast.success('🎉The email has been sent👌', {
+    position: "bottom-right",
+    autoClose: 5000,
+    hideProgressBar: false,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+    theme: "colored",
+    // aqui toca escribir manualmente esto
+    transition: Bounce,
+    
+    });;
 
   const form = useRef();
 
@@ -36,6 +56,8 @@ const Contact = () => {
           console.log("ërror al enviar");
         }
       );
+
+      notify();
   };
 
   const [verfied, setVerifed] = useState(false);
@@ -88,7 +110,7 @@ const Contact = () => {
             id="btnCaptcha"
           />
 
-          <Button
+          <Button 
             // hay que poner type para que el formulario lo reconozca como el boton enviar del formulario
             type="submit"
             // el !verfied es una variable de estado que se definió mas arriba (linea 41) y ayuda a bloquear el boton para que solo se active cuando se verifica el captcha
@@ -99,7 +121,7 @@ const Contact = () => {
           >
             SUBMIT{" "}
           </Button>
-
+          <ToastContainer/>
           <p>Email: nicolasromero.dev@gmail.com</p>
         </form>
       </div>
