@@ -13,7 +13,7 @@ const Inicio = (props) => {
         </div>
         <div className="contenido-portada">
           <div className="titulos-portada">
-            <h4>Front-end Developer</h4>
+            <h4>Junior Developer</h4>
             <h1>PORTFOLIO</h1>
             <h4>By Nicolás Romero</h4>
           </div>
