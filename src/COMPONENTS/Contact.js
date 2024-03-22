@@ -18,7 +18,7 @@ const Contact = () => {
     Aos.init();
   }, []);
 
-// esta constante notify, viene con el toast de el formulario linea 13
+// esta constantex notify, viene con el toast de el formulario linea 13
   const notify = () => toast.success('🎉The email has been sent👌', {
     position: "bottom-right",
     autoClose: 5000,
