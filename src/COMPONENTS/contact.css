@@ -82,7 +82,7 @@
     color: #ffffff;
   }
 
-  @media (max-width: 600px ) and (min-height: 600px ){
+  @media (max-width: 600px ) and (min-height: 200px ){
     #ContactTemporal{
       display: block;
     }

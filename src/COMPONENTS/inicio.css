@@ -80,7 +80,7 @@
 .padre-inicio-res {
   display: none;
 }
-@media (max-width: 600px ) and (min-height: 600px ) {
+@media (max-width: 600px ) and (min-height: 200px ) {
   .contenedor {
     display: none;
   }
