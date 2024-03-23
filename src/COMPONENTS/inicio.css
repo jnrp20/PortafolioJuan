@@ -80,7 +80,7 @@
 .padre-inicio-res {
   display: none;
 }
-@media (max-width: 850px ) and (min-height: 720px ) {
+@media (max-width: 600px ) and (min-height: 200px ) {
   .contenedor {
     display: none;
   }
@@ -88,13 +88,20 @@
     display: flex; flex-direction: column;
     align-items: center;
     width: 100vw;
-    height: 100vh;
+    height: auto;
     color: white;
-    background-image: url(../image/videoportada2.mp4);
+   
     
   }
   .video-container video{
     display: none;
+  }
+  .video-container{
+    min-height: 1000px;
+    max-height: 1001px;
+    width: 100vw;
+    
+   
   }
   
   .header-inicio-res {
@@ -110,9 +117,10 @@
     font-family: "Courgette", cursive;
   }
   .container-foto-res {
-    width: 70%;
-    height: 30%;
+    max-width: 60%;
+    max-height: 30%;
     margin-top: 5%;
+    margin-bottom: 5%;
     position: relative;
   }
 
@@ -139,21 +147,21 @@
   }
   .cont-btn-inicio-res {
     width: 100vw;
-    height: 20vh;
+    min-height: 300px;
   
     display: flex; flex-direction: column; justify-content: center;
     
   }
   .bnt-inicio-res {
     width: 100vw;
-    height:8vh;
+    min-height:8vh;
     display: flex; justify-content: space-around;
     padding: 0% 12%;
     
   }
   .bnt-inicio-res button{
     width: 48%;
-    height: 80%;
+    height: auto;
     border: solid 3px white;
     
     margin: 2% 0;
@@ -168,20 +176,7 @@
     text-decoration: none;
   }
 
-  .btnPagSig{
-    width: 100vw;
-    height: 15%;
-    scroll-margin-top: 2ex;
-    display: flex;flex-direction: column; align-items: center;justify-content: center;
-    animation-name: arriba-Abajo;
-     animation-duration: 2s;
-     animation-iteration-count: infinite;
-     
-  }
-
-  .btnPagSig img{
-    width: 50px;
-  }
+ 
 
   @keyframes arriba-Abajo {
     0%{

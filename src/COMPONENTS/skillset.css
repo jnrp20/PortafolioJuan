@@ -231,7 +231,7 @@ to{
   display: block;
  }
 
-@media (max-width: 850px ) and (min-height: 720px ) {
+ @media (max-width: 600px ) and (min-height: 200px ) {
   .cont-skill,
   .cont-skill2 {
     display: none;
@@ -241,9 +241,11 @@ to{
    }
  #TituloSkillRes{
   display: block;
+  
  }
   .contSkillres{
     padding: 5% 0;
+    
     display: flex;
   flex-direction: column;
   align-items: center;
@@ -252,6 +254,7 @@ to{
   }
   .contSkillCard{
     padding: 2% 4%;
+    
     margin: 5% 0 7% 0;
   }
 }

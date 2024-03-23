@@ -75,14 +75,10 @@ const Contact = () => {
       {/* este data-aos es para las animaciones de la libreria AOS */}
     
       <div className="cont-contact">
-        <div
-          data-aos="fade-left"
-          data-aos-easing="linear"
-          data-aos-duration="1500"
-        ></div>
- 
+        
         <form ref={form} onSubmit={sendEmail}>
-          <h1 id="SendEmail">Send Email</h1>
+ <h1 >Send Email</h1>
+          
 
           <input
             type="text"
@@ -122,7 +118,7 @@ const Contact = () => {
             SUBMIT{" "}
           </Button>
           <ToastContainer/>
-          <p>Email: nicolasromero.dev@gmail.com</p>
+         
         </form>
       </div>
     </div>
