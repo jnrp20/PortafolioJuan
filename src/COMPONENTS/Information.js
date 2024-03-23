@@ -192,7 +192,7 @@ const Information = () => {
 
 
         <div className="btnDownload">
-          <a href="https://mailunicundiedu-my.sharepoint.com/:f:/g/personal/jnicolasromero_ucundinamarca_edu_co/Em6J9nF3CpdGnqXVjSQKH2kBY9Xv5jvJW4OCtrLoPcc8EA?e=Du1lYp" target="_blank">
+          <a href="https://drive.google.com/drive/folders/1ko8gIhOGz6UFsuYXggM3oTl5LReUXpdT?usp=sharing" target="_blank">
             <button>View CV</button>
           </a>
         </div>
