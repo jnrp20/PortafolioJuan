@@ -105,6 +105,7 @@ root.render(
             This page was created independently by me using React.
           </p>
           <p id="p">Follow me on my social media.</p>
+          {/* <p>Email: nicolasromero.dev@gmail.com</p> */}
         </div>
       </footer>
     </div></div>

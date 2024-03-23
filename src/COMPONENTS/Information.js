@@ -147,6 +147,10 @@ const Information = () => {
 
       <div className="contInfoRes" id="secciónInfoRes">
         <h4>A little bit about me</h4>
+       <p>(Slide)</p>
+     
+        
+        
 
         <div className="contInfoScroll">
           <div
@@ -186,7 +190,6 @@ const Information = () => {
           </div>
         </div>
 
-        <img src={slide} alt="" id="slideImg" />
 
         <div className="btnDownload">
           <a href="https://mailunicundiedu-my.sharepoint.com/:f:/g/personal/jnicolasromero_ucundinamarca_edu_co/Em6J9nF3CpdGnqXVjSQKH2kBY9Xv5jvJW4OCtrLoPcc8EA?e=Du1lYp" target="_blank">

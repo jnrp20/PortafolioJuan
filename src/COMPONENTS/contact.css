@@ -83,31 +83,50 @@
   }
 
   @media (max-width: 600px ) and (min-height: 200px ){
-    #ContactTemporal{
-      display: block;
+    
+    .cont-contact{
+      height: auto;
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 5vh 0;
     }
     .padre-contact{
       display: flex; align-items: center;
       scroll-margin-top: 0;
-      height: 100vh;
+      height: auto;
+      padding: 10% 0;
     }
    
     form{
-      width: 85vw;
-
-      padding-top: 5%;
+      min-width: 90vw;
+      min-height: 700px;
+      padding: 20px 3px;
+      
     }
     
     
 
-    form input, textarea{
-      width: 80%;
+    form textarea{
+      min-width: 80%;
+      min-height: 8vh;
+     
+      margin: 3% 0;
+      
+    }
+    form input{
+      min-width: 80%;
+      min-height: 8vh;
+      max-height: 8vh;
       margin: 3% 0;
       
     }
 
     #btnEnviar{
-      width: 40%;
-      height: 10%;
+      min-width: 40%;
+      min-height: 8%;
+      max-height: 15%;
+      margin-bottom: 2vh;
     }
   }

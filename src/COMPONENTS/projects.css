@@ -78,9 +78,11 @@
   .padre-projects {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: auto;
     justify-content: center;
     scroll-margin-top: 0;
+    background-color: #fff;
+    padding-top: 5vh;
   }
 
   .cont-projects {
@@ -89,7 +91,7 @@
     max-width: 100%;
     justify-content: start;
     margin-top: 20%;
-
+min-height: 450px;
     /* esto es para que el scroll siempre se ancle y muestr el contenido completo y no se quede el scroll en medio de dos objetos */
     scroll-snap-type: x mandatory;
   }
@@ -97,10 +99,10 @@
     /* esta propiedad es para que al hacer scroll el elemento se centre solo en el objeto padre, pero para eso debe tener el contenedor la propiedad scroll-snap-type: x mandatory; */
     scroll-snap-align: center;
     min-width: 75vw;
-    height: auto;
+    min-height: 450px;
     box-shadow: 1px 1px 5px 3px rgba(204, 204, 204, 1);
 
-    margin: 5% 5%;
+    margin: 2% 5%;
     filter: grayscale(0);
   }
   

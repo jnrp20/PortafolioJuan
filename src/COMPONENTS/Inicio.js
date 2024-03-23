@@ -58,12 +58,7 @@ const Inicio = (props) => {
           <button ><a href="#seccionContact">Contact Me</a></button>
           </div>
          </div>
-         <div className="btnPagSig">
-
-         <a href="#txt2">
-           <img src={btnResponsive} alt="" />
-         </a>
-          </div>
+         
         
       </div>
     </div>
