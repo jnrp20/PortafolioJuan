@@ -89,7 +89,7 @@ const Information = () => {
                 Angular, React, Spring Boot, among others.
               </p>
               <div className="btnDownload1">
-                <a href="https://drive.google.com/drive/folders/1ko8gIhOGz6UFsuYXggM3oTl5LReUXpdT?usp=sharing target="_blank">
+                <a href="https://drive.google.com/drive/folders/1ko8gIhOGz6UFsuYXggM3oTl5LReUXpdT?usp=sharing target=" target="_blank">
                   <button>View CV</button>
                 </a>
               </div>
